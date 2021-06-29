@@ -15,7 +15,6 @@
 .main{
    display:inline-block;
    margin: 50px;
-
 }
 .name{
     text-align: center;
@@ -32,3 +31,7 @@
   font-size: x-large;
   color: darkslategray;
 }
+/* .image{
+    width: 200px;
+    height: 200px;
+} */

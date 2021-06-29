@@ -1,3 +1,49 @@
+
+# For lab 2 :
+
+## Number and name of feature:  Feature #1: Display images
+
+Estimate of time needed to complete: 1hr
+
+Start time: 2pm
+
+Finish time: 3pm
+
+Actual time needed to complete:1hr
+
+## Number and name of feature:Feature #2: Allow users to vote for their favorite beast
+
+Estimate of time needed to complete: 1hr
+
+Start time: 3pm
+
+Finish time: 4pm
+
+Actual time needed to complete:1hr
+
+## Number and name of feature:  Feature 3: Bootstrap
+
+Estimate of time needed to complete: 1hr
+
+Start time: 4pm
+
+Finish time: 5pm
+
+Actual time needed to complete:1hr
+
+# For lab 3 :
+
+Number and name of feature: (Feature #1: Display a Modal)
+
+Estimate of time needed to complete: 4 hr
+
+Start time: 1pm
+
+Finish time: 8pm
+
+Actual time needed to complete: 7hr
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

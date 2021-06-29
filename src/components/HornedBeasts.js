@@ -17,12 +17,17 @@ class HornedBeasts extends React.Component {
         })
     }
 
+    showTheCard =()=>{
+        this.props.selectedCard(this.props.title)
+    }
+
+
     render() {
         return (
             <div className='main'>
                
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img  variant="top" src={this.props.image} />
+                <Card   onClick={this.showTheCard} style={{ width: '18rem' }}  >
+                    <Card.Img   variant="top" src={this.props.image} />
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
                         <Card.Text>
