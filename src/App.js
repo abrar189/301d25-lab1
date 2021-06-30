@@ -39,12 +39,18 @@ HandleClose = () => {
     this.setState({
         show: false,
     })
+
 }
+displayBeasts= (data)=> {
+        this.setState(
+            {data}
+        );
+    }
   render(){
     return(
       <>
       <Header />
-      <Main data={this.state.data} selectedCard={this.selectedCard} />
+      <Main data={this.state.data} selectedCard={this.selectedCard} displayBeasts={this.displayBeasts} />
       <Footer />
       <SelectedBeasts display={this.state.show} displayContent={this.state.dataModel} closing={this.HandleClose} />
 

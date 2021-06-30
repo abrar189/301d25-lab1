@@ -36,7 +36,7 @@ class HornedBeasts extends React.Component {
                         </Card.Text>
                         <Card.Text>
                           
-                          <p>  {this.state.click} </p>
+                           {this.state.click} 
                         </Card.Text>
                         
                         <Button  onClick={this.increaseClick} variant="primary">Vote</Button>

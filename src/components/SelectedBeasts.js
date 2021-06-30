@@ -12,8 +12,8 @@ class SelectedBeasts extends React.Component{
           <Modal.Title>{this.props.displayContent.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-            <p ><img variant="top" src={this.props.displayContent.image_url} alt={this.props.displayContent.title} style = {{width :'200px'}} /></p>
-            <p>  {this.props.displayContent.description}</p>
+            <img variant="top" src={this.props.displayContent.image_url} alt={this.props.displayContent.title} style = {{width :'200px'}} />
+              {this.props.displayContent.description}
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={this.props.closing}>
