@@ -17,7 +17,8 @@ class App extends React.Component {
     this.state = {
         data: data,
         show: false,
-        dataModel: {}
+        dataModel: {},
+        All :"All"
     }
 }
 selectedCard = title => {
@@ -50,7 +51,7 @@ displayBeasts= (data)=> {
     return(
       <>
       <Header />
-      <Main data={this.state.data} selectedCard={this.selectedCard} displayBeasts={this.displayBeasts} />
+      <Main data={this.state.data} selectedCard={this.selectedCard} displayBeasts={this.displayBeasts} All={this.props.All} />
       <Footer />
       <SelectedBeasts display={this.state.show} displayContent={this.state.dataModel} closing={this.HandleClose} />
 
