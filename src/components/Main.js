@@ -9,7 +9,7 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                        <FilterHornd displayBeasts={this.props.displayBeasts} />
+                        <FilterHornd displayBeasts={this.props.displayBeasts} All={this.props.All}/>
 
                 {
                     this.props.data.map((item, index) => {
